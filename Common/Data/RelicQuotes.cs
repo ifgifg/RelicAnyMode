@@ -11,6 +11,9 @@ namespace RelicAnyMode.Common.Data
 	/// </summary>
 	public static class RelicQuotes
 	{
+		/// <summary>没有专属语录的遗物（例如别的整合包里新加的 Boss）使用的通用语录。</summary>
+		public const string FallbackQuote = "你击败了它。关于它的传说，从此由你来写。";
+
 		public static readonly Dictionary<string, string> Quotes = new Dictionary<string, string>
 		{
 			// ---------------- 原版 Boss（28） ----------------
@@ -101,6 +104,7 @@ namespace RelicAnyMode.Common.Data
 			["CalamityEntropy/LuminarisRelic"] = "辉光蛾的翅粉散尽。它终于不必再追逐那盏太阳。",
 			["CalamityEntropy/NihilityTwinRelic"] = "虚无双子的双翼同时熄灭，虚空里安静得能听见心跳。",
 			["CalamityEntropy/ProphetRelic"] = "先知闭上了眼睛：‘我已经看见了结局……只是没想到是你。’",
+			["CalamityEntropy/VoidDestroyerRelic"] = "虚空毁灭者坍缩成一颗哑火的奇点——它终于明白，毁灭也需要观众。",
 
 			// ---------------- 催化剂（1） ----------------
 			["CatalystMod/AstrageldonRelic"] = "星尘凝胶的折射光散去，星界巨兽坍缩成一颗安静的星核。",
