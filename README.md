@@ -4,7 +4,7 @@
 >
 > **作者：AAA狙神夏乌拉（Bilibili）**
 
-- 创意工坊：发布后补充
+- 创意工坊：https://steamcommunity.com/sharedfiles/filedetails/?id=3827122153
 - GitHub：https://github.com/ifgifg/RelicAnyMode
 - 安装说明：见 [README.txt](README.txt)
 
