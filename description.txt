@@ -1,0 +1,36 @@
+圣遗物全模式掉落 / Relic Any Mode
+作者：AAA狙神夏乌拉（Bilibili）
+
+让 Boss 遗物（大师模式 Relic 雕像）在任意难度、任意击杀次数下都掉落，并保持原本的彩色大师稀有度；
+每件遗物还附带一段该 Boss 的「被击败语录」（参考游戏文本与 Wiki 撰写）。
+
+【主要功能】
+· 专家/经典/旅途世界也能获得 Boss 遗物
+· 灾厄“复仇模式或大师模式”限制解除（专家+非复仇也会掉）
+· 活动 Boss（南瓜月/霜月小 Boss）不受波次限制，每次击杀必掉
+· 兼容法狗魂石永恒模式，自动去重不会双掉
+· 支持原版 / 灾厄 / 灾厄附属 / 法狗魂石的 Boss 遗物
+
+【安装方法】
+一、创意工坊（推荐）
+1. 打开 Steam → 创意工坊 → 搜索「圣遗物全模式掉落」
+2. 点击订阅
+3. 启动 tModLoader，在模组列表确认已启用
+4. 进入任意世界即可生效
+
+二、手动安装
+1. 下载 RelicAnyMode.tmod
+2. 放入 Documents\My Games\Terraria\tModLoader\Mods\
+3. 启动 tModLoader → 模组 → 启用「圣遗物全模式掉落」
+
+【联机】
+服务器端必须安装并启用；单人直接生效。
+
+【版本】
+tModLoader 1.4.4.9（2026.8.3.0）
+
+【源码】
+https://github.com/ifgifg/RelicAnyMode
+
+【许可】
+MIT License

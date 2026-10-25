@@ -1,0 +1,26 @@
+Mods: {
+	RelicAnyMode: {
+		DisplayName: 圣遗物全模式掉落
+
+		Configs: {
+			RelicAnyModeConfig: {
+				DisplayName: 圣遗物全模式掉落 - 设置
+
+				ForceRelicDrops: {
+					Label: 强制掉落 Boss 遗物
+					Tooltip: 开启后，Boss 遗物（大师模式的遗物雕像）在任何世界难度下都会掉落，并保持大师稀有度的颜色。
+				}
+
+				ShowDefeatQuotes: {
+					Label: 显示被击败语录
+					Tooltip: 在 Boss 遗物的物品说明里追加一段该 Boss 的“被击败语录”。
+				}
+
+				VerboseLogging: {
+					Label: 详细日志
+					Tooltip: 在世界加载时记录每一条被解除难度限制的遗物掉落规则。
+				}
+			}
+		}
+	}
+}

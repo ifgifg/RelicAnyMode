@@ -1,0 +1,26 @@
+Mods: {
+	RelicAnyMode: {
+		DisplayName: Relic Any Mode
+
+		Configs: {
+			RelicAnyModeConfig: {
+				DisplayName: Relic Any Mode - Config
+
+				ForceRelicDrops: {
+					Label: Force Boss Relic Drops
+					Tooltip: When enabled, boss relics (Master mode relic statues) can drop in any world difficulty, keeping their Master rarity color.
+				}
+
+				ShowDefeatQuotes: {
+					Label: Show Defeat Quotes
+					Tooltip: Appends a short defeat quote of the boss to each boss relic's tooltip.
+				}
+
+				VerboseLogging: {
+					Label: Verbose Logging
+					Tooltip: Logs every relic drop rule and difficulty gate that is unlocked when the world loads.
+				}
+			}
+		}
+	}
+}
