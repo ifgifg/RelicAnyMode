@@ -21,7 +21,10 @@ namespace RelicAnyMode.Common.GlobalItems
 
 			string key = RelicLootEnforcer.GetItemInternalName(item.type);
 			if (string.IsNullOrEmpty(key)) return;
-			if (!RelicQuotes.Quotes.TryGetValue(key, out string quote) || string.IsNullOrEmpty(quote)) return;
+
+			// 有专属语录就用专属的；没有（例如整合包里新加的 Boss）则用通用语录
+			if (!RelicQuotes.Quotes.TryGetValue(key, out string quote) || string.IsNullOrEmpty(quote))
+				quote = RelicQuotes.FallbackQuote;
 
 			tooltips.Add(new TooltipLine(Mod, "RelicDefeatQuote", "「" + quote + "」")
 			{
