@@ -43,7 +43,7 @@ tModLoader 1.4.4.9（2026.8.3.0）。作者本机测试环境为灾厄 2.2.4 + �
 
 【源码 / 项目主页】
 GitHub: https://github.com/ifgifg/RelicAnyMode
-创意工坊：（发布后补充链接）
+创意工坊: https://steamcommunity.com/sharedfiles/filedetails/?id=3827122153
 
 【许可】
 MIT License，详见 LICENSE 文件。
