@@ -1,5 +1,5 @@
 author = AAA狙神夏乌拉
 displayName = 圣遗物全模式掉落
-version = 1.0
+version = 1.1
 side = Both
 homepage = https://github.com/ifgifg/RelicAnyMode
